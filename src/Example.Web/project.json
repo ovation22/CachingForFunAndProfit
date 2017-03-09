@@ -27,10 +27,12 @@
     "Example.Repositories.Interfaces": "1.0.0-*",
     "Example.Services": "1.0.0-*",
     "Example.Services.Interfaces": "1.0.0-*",
-    "Microsoft.Extensions.Caching.Abstractions": "1.1.0",
+    "Microsoft.Extensions.Caching.Abstractions": "1.1.1",
     "Microsoft.Extensions.Caching.Memory": "1.1.0",
     "Microsoft.AspNetCore.ResponseCaching": "1.1.1",
-    "Microsoft.AspNetCore.ResponseCaching.Abstractions": "1.1.1"
+    "Microsoft.AspNetCore.ResponseCaching.Abstractions": "1.1.1",
+    "Microsoft.Extensions.Caching.Redis.Core": "1.0.3",
+    "Microsoft.AspNetCore.Session": "1.1.1"
   },
 
   "tools": {

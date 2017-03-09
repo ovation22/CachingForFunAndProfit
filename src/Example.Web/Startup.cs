@@ -37,7 +37,15 @@ namespace Example.Web
 
             services.AddMvc();
             //services.AddResponseCaching();
-            services.AddMemoryCache();
+            //services.AddMemoryCache();
+
+            services.AddDistributedRedisCache(options =>
+            {
+                options.InstanceName = "Example";
+                options.Configuration = "localhost";
+            });
+
+            services.AddSession();
 
             // Add application services.
             services.AddScoped(typeof(IRepository<>), typeof(Repository<>));
@@ -63,6 +71,8 @@ namespace Example.Web
             }
 
             app.UseStaticFiles();
+
+            app.UseSession();
 
             app.UseMvc(routes =>
             {
