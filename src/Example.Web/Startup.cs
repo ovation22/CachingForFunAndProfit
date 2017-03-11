@@ -36,8 +36,8 @@ namespace Example.Web
                 options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
 
             services.AddMvc();
-            //services.AddResponseCaching();
-            //services.AddMemoryCache();
+            services.AddResponseCaching();
+            services.AddMemoryCache();
 
             services.AddDistributedRedisCache(options =>
             {

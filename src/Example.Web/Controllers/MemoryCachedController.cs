@@ -28,6 +28,8 @@ namespace Example.Web.Controllers
             const string cachekey = "CONTROLLER_CACHED";
             List<Models.HorseSummary> cached;
 
+            ViewBag.Message = "Memory Cached - From Cache";
+
             if (!_memoryCache.TryGetValue(cachekey, out cached))
             {
                 // Get the values to be cached
@@ -43,9 +45,9 @@ namespace Example.Web.Controllers
 
                 // Store it in cache
                 _memoryCache.Set(cachekey, cached, opts);
-            }
 
-            ViewBag.Message = "Memory Cached";
+                ViewBag.Message = "Memory Cached";
+            }
 
             return View("Horses", cached);
         }
