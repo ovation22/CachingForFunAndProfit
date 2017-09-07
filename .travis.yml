@@ -7,4 +7,5 @@ solution: CachingForFunAndProfit.sln
 
 script: 
 - dotnet restore
+- cd src/Example.Web
 - dotnet build
