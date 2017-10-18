@@ -1,4 +1,4 @@
-# CachingForFunAndProfit
+# Caching For Fun And Profit
 
 [![Build status](https://travis-ci.org/ovation22/CachingForFunAndProfit.svg?branch=master)](https://travis-ci.org/ovation22/CachingForFunAndProfit)
 
