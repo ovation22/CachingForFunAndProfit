@@ -5,10 +5,10 @@
 Caching in .NET Core for Fun and Profit is an example used for User Groups and Meetups.
 
 ## Prerequisite
-- Visual Studio 2015 update 3
+- Visual Studio 2017
 - SQL Server
 - SQL Server Data Tools
-- .NET Core 1.0
+- .NET Core 2.0
 
 ## Technologies and frameworks used
 - ASP.NET Core MVC
