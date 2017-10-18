@@ -1,30 +1,23 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+# Visual Studio 15
+VisualStudioVersion = 15.0.26730.16
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{1351B7C2-FC05-4CC2-8289-26E7848BB539}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{61AF274E-BD9D-4D26-94FF-7145AF28BC46}"
-	ProjectSection(SolutionItems) = preProject
-		global.json = global.json
-	EndProjectSection
-EndProject
 Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "Example.Database", "src\Example.Database\Example.Database.sqlproj", "{E975D282-3E37-4604-B7C0-490CFD32D242}"
 EndProject
-Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Example.Dto", "src\Example.Dto\Example.Dto.xproj", "{4BBB189A-4D66-4644-B7E9-F1AF6663DD7D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Example.Dto", "src\Example.Dto\Example.Dto.csproj", "{4BBB189A-4D66-4644-B7E9-F1AF6663DD7D}"
 EndProject
-Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Example.Models", "src\Example.Models\Example.Models.xproj", "{508E3045-E55F-406A-A5C6-1E5A9051FD00}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Example.Models", "src\Example.Models\Example.Models.csproj", "{508E3045-E55F-406A-A5C6-1E5A9051FD00}"
 EndProject
-Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Example.Repositories", "src\Example.Repositories\Example.Repositories.xproj", "{E7CCCE4C-2231-4926-A6AD-FA02EB20B7C0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Example.Repositories", "src\Example.Repositories\Example.Repositories.csproj", "{E7CCCE4C-2231-4926-A6AD-FA02EB20B7C0}"
 EndProject
-Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Example.Repositories.Interfaces", "src\Example.Repositories.Interfaces\Example.Repositories.Interfaces.xproj", "{E980CB48-E18D-4269-84AD-1CEACFBB2BA0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Example.Repositories.Interfaces", "src\Example.Repositories.Interfaces\Example.Repositories.Interfaces.csproj", "{E980CB48-E18D-4269-84AD-1CEACFBB2BA0}"
 EndProject
-Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Example.Services", "src\Example.Services\Example.Services.xproj", "{C3B47263-8752-4B3A-9666-B502C387221A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Example.Services", "src\Example.Services\Example.Services.csproj", "{C3B47263-8752-4B3A-9666-B502C387221A}"
 EndProject
-Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Example.Services.Interfaces", "src\Example.Services.Interfaces\Example.Services.Interfaces.xproj", "{C6359660-7D0C-4974-987A-E9F949952B1B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Example.Services.Interfaces", "src\Example.Services.Interfaces\Example.Services.Interfaces.csproj", "{C6359660-7D0C-4974-987A-E9F949952B1B}"
 EndProject
-Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Example.Web", "src\Example.Web\Example.Web.xproj", "{9257A653-94EE-45E9-9993-3BC9EA52DB71}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Example.Web", "src\Example.Web\Example.Web.csproj", "{9257A653-94EE-45E9-9993-3BC9EA52DB71}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -70,14 +63,7 @@ Global
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
-	GlobalSection(NestedProjects) = preSolution
-		{E975D282-3E37-4604-B7C0-490CFD32D242} = {1351B7C2-FC05-4CC2-8289-26E7848BB539}
-		{4BBB189A-4D66-4644-B7E9-F1AF6663DD7D} = {1351B7C2-FC05-4CC2-8289-26E7848BB539}
-		{508E3045-E55F-406A-A5C6-1E5A9051FD00} = {1351B7C2-FC05-4CC2-8289-26E7848BB539}
-		{E7CCCE4C-2231-4926-A6AD-FA02EB20B7C0} = {1351B7C2-FC05-4CC2-8289-26E7848BB539}
-		{E980CB48-E18D-4269-84AD-1CEACFBB2BA0} = {1351B7C2-FC05-4CC2-8289-26E7848BB539}
-		{C3B47263-8752-4B3A-9666-B502C387221A} = {1351B7C2-FC05-4CC2-8289-26E7848BB539}
-		{C6359660-7D0C-4974-987A-E9F949952B1B} = {1351B7C2-FC05-4CC2-8289-26E7848BB539}
-		{9257A653-94EE-45E9-9993-3BC9EA52DB71} = {1351B7C2-FC05-4CC2-8289-26E7848BB539}
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AD0E2BDC-8709-405D-BED4-717DD3BE1180}
 	EndGlobalSection
 EndGlobal

@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <AssemblyName>Example.Services</AssemblyName>
+    <PackageId>Example.Services</PackageId>
+    <NetStandardImplicitPackageVersion>1.6.1</NetStandardImplicitPackageVersion>
+    <PackageTargetFallback>$(PackageTargetFallback);dnxcore50</PackageTargetFallback>
+    <GenerateAssemblyConfigurationAttribute>false</GenerateAssemblyConfigurationAttribute>
+    <GenerateAssemblyCompanyAttribute>false</GenerateAssemblyCompanyAttribute>
+    <GenerateAssemblyProductAttribute>false</GenerateAssemblyProductAttribute>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Example.Dto\Example.Dto.csproj" />
+    <ProjectReference Include="..\Example.Models\Example.Models.csproj" />
+    <ProjectReference Include="..\Example.Repositories.Interfaces\Example.Repositories.Interfaces.csproj" />
+    <ProjectReference Include="..\Example.Services.Interfaces\Example.Services.Interfaces.csproj" />
+  </ItemGroup>
+
+</Project>
