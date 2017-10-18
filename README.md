@@ -1,5 +1,7 @@
 # CachingForFunAndProfit
 
+[![Build status](https://travis-ci.org/ovation22/CachingForFunAndProfit.svg?branch=master)](https://travis-ci.org/ovation22/CachingForFunAndProfit)
+
 Caching in .NET Core for Fun and Profit is an example used for User Groups and Meetups.
 
 ## Prerequisite
